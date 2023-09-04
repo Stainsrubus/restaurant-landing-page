@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Qwigley&family=Source+Sans+3:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+    <nav class="navbar">
+      <div class="container d-flex flex-row align-content-center justify-content-between">
+        <logo>
+          <h2>Hot Meals</h2>
+        </logo>
+        <ul class="address d-flex">
+          <li class="deliver">Deliver to:</li>
+          <li><img src="icons/map-marker-alt.svg" alt="location" /></li>
+          <li class="location">
+            <span> Current Location </span> Ashok Nagar, Chennai-600013
+          </li>
+        </ul>
+        <ul class="search-login d-flex align-items-center">
+          <li><img src="icons/Search-icon.svg" alt="search-icon" /></li>
+          <li>Search Food</li>
+          <li>
+            <button class="btn btn-outline-warning">
+              <img src="icons/user-icon.svg" alt="user" />Login
+            </button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <header>
+      <div class="container d-flex flex-row main">
+        <div class="container flex-row left">
+          <h1 class="title-text">Look at your fav Meals</h1>
+          <p>Within a few clicks, find meals that are accessible near you</p>
+          <div class="tiny-box">
+            <div class="one d-flex">
+              <button type="submit" class="btn delivery">
+                <img src="icons/bike.svg" alt="bike" />Delivery
+              </button>
+              <button type="submit" class="btn pickup">
+                <img src="icons/bag.svg" alt="bag" />Pickup
+              </button>
+            </div>
+            <div class="two d-flex">
+              <input
+                type="text"
+                class="form-control Addressbar"
+                placeholder="Enter Your Address"
+              />
+              <button class="btn find-food">
+                <img src="icons/search.svg" alt="search" />FindFood
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="container flex-row right">
+          <img class="food" src="image/food_sadya.png" alt="food-sadya" />
+        </div>
+      </div>
+    </header>
+    <section-one>
+      <div class="container d-flex gap-2 main-menu">
+        <div class="card">
+          <img src="/image/vada.png" class="card-img-top" alt="vada" />
+          <div class="card-body">
+            <h5 class="card-title">Vada</h5>
+            <button class="btn delivery">30 mins delivery</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/image/idly.png" class="card-img-top" alt="idly" />
+          <div class="card-body">
+            <h5 class="card-title">Idly</h5>
+            <button class="btn delivery">30 mins delivery</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/image/parotta.png" class="card-img-top" alt="parotta" />
+          <div class="card-body">
+            <h5 class="card-title">parotta</h5>
+            <button class="btn delivery">30 mins delivery</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="/image/kichadi.png" class="card-img-top" alt="kichadi" />
+          <div class="card-body">
+            <h5 class="card-title">Kichadi</h5>
+            <button class="btn delivery">30 mins delivery</button>
+          </div>
+        </div>
+      </div>
+      <div class="container sub">
+        <h1>How does it work</h1>
+        <div
+          class="container d-flex justify-content-evenly align-items-center quick-access"
+        >
+          <img src="icons/discount.svg" alt="discount" />
+          <p>
+            Daily<br />
+            Discounts
+          </p>
+          <img src="/icons/HR.svg" alt="HR" />
+          <img src="icons/Live-tracking.svg" alt="Live-tracking" />
+          <p>Live <br />Tracking</p>
+          <img src="/icons/HR.svg" alt="HR" />
+          <img src="icons/Quick-delivery.svg" alt="Quick-delivery" />
+          <p>
+            quick<br />
+            Delivery
+          </p>
+        </div>
+      </div>
+    </section-one>
+    <section-two>
+      <div class="container round-menu">
+        <h1 class="title position-absolute">Search by Food</h1>
+        <div class="container d-flex gap-3 justify-content-center text-center round-cards-container">
+          <div class="round-cards text-center">
+            <img src="/image/dosa.png" alt="dosa" />
+            <p>Dosa</p>
+          </div>
+          <div class="round-cards">
+            <img src="/image/appam.png" alt="Aappam" />
+            <p>Aappam</p>
+          </div>
+          <div class="round-cards">
+            <img src="/image/puttu.png" alt="puttu" />
+            <p>Puttu</p>
+          </div>
+          <div class="round-cards">
+            <img src="/image/idiyappam.png" alt="idiyappam" />
+            <p>Idiyappam</p>
+          </div>
+          <div class="round-cards">
+            <img src="/image/pongal_mini.png" alt="pongal" />
+            <p>Pongal</p>
+          </div>
+          <div class="round-cards">
+            <img src="/image/veg_rice.png" alt="Veg-rice" />
+            <p>Veg Rice</p>
+          </div>
+        </div>
+      </div>
+    </section-two>
+    <section-three>
+      <div class="container d-flex sec-three">
+        <div class="card d-flex flex-column text-start">
+          <div class="card-title">
+            <h2>Best deals <span>Crispy Diffen</span></h2>
+          </div>
+          <div class="card-body text-start">
+            <p>Enjoy the large size of Dosa. Complete perfect slice of Dosa.</p>
+          </div>
+          <div class="card-footer">
+            <button class="btn">PROCEED TO ORDER ></button>
+          </div>
+        </div>
+        <div class="container right">
+          <img src="/image/idly_dosa.png" alt="idly_dosa" />
+        </div>
+      </div>
+    </section-three>
+    <section-four>
+      <div class="container popular-items">
+        <h1>Popular items</h1>
+        <div class="container cards-container d-flex flex-row gap-2 row-gap-5 flex-wrap align-content-center justify-content-center">
+          <div class="card">
+            <div class="card-img-top">
+              <img src="/image/muruku.png" alt="muruku" />
+            </div>
+            <div class="card-title">
+              <p>Muruku</p>
+            </div>
+            <div class="card-footer">
+              <button class="btn ordernow">Order Now</button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img-top">
+              <img src="/image/paniyaram.png" alt="paniyaram" />
+            </div>
+            <div class="card-title">
+              <p>Paniyaram</p>
+            </div>
+            <div class="card-footer">
+              <button class="btn ordernow">Order Now</button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img-top">
+              <img src="/image/seeval_muruku.png" alt="seeval-muruku" />
+            </div>
+            <div class="card-title">
+              <p>Seeval Muruku</p>
+            </div>
+            <div class="card-footer">
+              <button class="btn ordernow">Order Now</button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img-top">
+              <img src="/image/mixture.png" alt="mixture" />
+            </div>
+            <div class="card-title">
+              <p>Mixture</p>
+            </div>
+            <div class="card-footer">
+              <button class="btn ordernow">Order Now</button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img-top">
+              <img src="/image/veg_soup.png" alt="veg-soup" />
+            </div>
+            <div class="card-title">
+              <p>Veg Soup</p>
+            </div>
+            <div class="card-footer">
+              <button class="btn ordernow">Order Now</button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img-top">
+              <img src="/image/Gulab_jamun.png" alt="Gulab_jamun" />
+            </div>
+            <div class="card-title">
+              <p>Gulab_jamun</p>
+            </div>
+            <div class="card-footer">
+              <button class="btn ordernow">Order Now</button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img-top">
+              <img
+                src="/image/pori_vellangal_urundai.png"
+                alt="pori_vellangal_urundai"
+              />
+            </div>
+            <div class="card-title">
+              <p>Porivellangal Urundai</p>
+            </div>
+            <div class="card-footer">
+              <button class="btn ordernow">Order Now</button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img-top">
+              <img src="/image/jangiri.png" alt="jangiri" />
+            </div>
+            <div class="card-title">
+              <p>jangiri</p>
+            </div>
+            <div class="card-footer">
+              <button class="btn ordernow">Order Now</button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img-top">
+              <img src="/image/laddu.png" alt="laddu" />
+            </div>
+            <div class="card-title">
+              <p>lattu</p>
+            </div>
+            <div class="card-footer">
+              <button class="btn ordernow">Order Now</button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-img-top">
+              <img src="/image/halwa.png" alt="halwa" />
+            </div>
+            <div class="card-title">
+              <p>Halwa</p>
+            </div>
+            <div class="card-footer">
+              <button class="btn ordernow">Order Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section-four>
+
+    <footer>
+      <div class="footer-container">
+        <img
+          class="hr top"
+          src="/icons/big-horizontal-rule.svg"
+          alt="horintal rule"
+        />
+        <div
+          class="container footer-card-container d-flex flex-row justify-content-around"
+        >
+          <div class="container left-side d-inline-flex align-items-start">
+            <ul class="d-flex flex-column align-items-start">
+              <h1>Company</h1>
+              <li>About_us</li>
+              <li>Team</li>
+              <li>Careers</li>
+              <li>Blog</li>
+            </ul>
+            <ul class="d-flex flex-column">
+              <h1>Content</h1>
+              <li>Help&Support</li>
+              <li>Partner_withus</li>
+              <li>Ride with us</li>
+            </ul>
+            <ul class="d-flex flex-column">
+              <h1>Legal</h1>
+              <li>Terms&Conditions</li>
+              <li>Refund&Cancellation</li>
+              <li>Privacy Policy</li>
+              <li>Cookie Policy</li>
+            </ul>
+          </div>
+          <div class="container right-side">
+            <div class="card">
+              <div class="card-title">Follow us</div>
+              <div
+                class="card-body icons d-inline-flex align-items-start gap-3 opacity-31"
+              >
+                <img src="/icons/instagram.svg" alt="instagram" />
+                <img src="/icons/facebook.svg" alt="facebook" />
+                <img src="/icons/twitter.svg" alt="twitter" />
+              </div>
+              <div class="card-body content">
+                <p>Receive exclusive offers in your mailbox</p>
+              </div>
+              <div class="card-footer d-flex gap-3">
+                <div class="mail-container d-flex gap-2">
+                  <img
+                    src="/icons/mail.svg"
+                    alt="mail Icon"
+                    class="mail-icon"
+                  />
+                  <input
+                    type="email"
+                    class="mail-input form-control"
+                    placeholder="Enter your email"
+                  />
+                </div>
+
+                <button class="btn subscribe">Subscribe</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          class="hr bottom"
+          src="/icons/big-horizontal-rule.svg"
+          alt="horintal rule"
+        />
+        <p class="copyright">All rights Reserved <span><img src="/icons/copy-right.svg" alt="copyright"></span></p>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </div>
+  </body>
+</html>
